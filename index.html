@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <title>iTunes Project</title>
+</head>
+<body>
+
+
+    <div class="w3-container w3-center w3-animate-right">
+        <p></p>
+    </div>
+    <div class="w3-container w3-center w3-animate-right">
+        <h1>Find Your Favorite Song</h1>
+    </div>
+
+
+
+    <div id="artist">
+        Artist:
+        <select id="artistType" onchange="start(this.value)">
+
+            <option value="0"> Drake</option>
+            <option value="1"> J.Cole </option>
+            <option value="2"> 6ix9ine</option>
+            <option value="3"> Jay-Z</option>
+            <option value="4"> Kanye West</option>
+            <option value="5"> Logic</option>
+        </select>
+    </div>
+
+    <img width="10" length="10" id="image">
+
+    </div>
+
+    <br><br>
+    <div id= "results">
+        Number of Results:
+        <select id="resultsType">
+
+            <option value="5"> 5 </option>
+            <option value="10"> 10 </option>
+            <option value="20"> 20 </option>
+            <option value="30"> 30 </option>
+            <option value="40"> 40 </option>
+            <option value="50"> 50 </option>
+
+        </select>
+    </div>
+
+    <br><br>
+
+    <div id="searchArtist">
+
+
+    Search For An Artist:
+    <input type="text" id="search" value= >
+
+    </div>
+
+    <br><br>
+    
+    <div id= "censor">
+        Censor Track Names?
+        <select id="censorType">
+
+            <option value="12"> Yes </option>
+            <option value="13"> No</option>
+
+        </select>
+    </div>
+
+<div id="playButton">
+    <button class="button"  value="Submit" onclick="presentData();">Submit</button>
+</div>
+
+<table id="tableData" onclick="start();" >
+
+</table>
+
+
+
+    <br><br>
+
+    <audio id="drake" src="https://sound.peal.io/ps/audios/000/001/046/original/Pop_Style_ft._Kanye_West__Jay_Z.mp3?1469744479" ></audio>
+    <audio id="jcole" src= "http://peal.io/download/ycswm"></audio>
+    <audio id="sixnine" src= "http://peal.io/download/a27ys"></audio>
+    <audio id="jayz" src= "http://peal.io/download/ppku5"></audio>
+    <audio id="kanye" src= "http://peal.io/download/091xk"></audio>
+    <audio id="logic" src= "http://peal.io/download/je2fw"></audio>
+
+
+
+</body>
+</html>
+
+

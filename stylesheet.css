@@ -1,0 +1,71 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Papyrus;
+
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-top:  10px cadetblue solid ;
+    border-bottom: 10px cadetblue solid;
+}
+
+body {
+    background-image: url(img/game.jpg
+    );
+    color: white;
+
+}
+
+#border {
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+    background-color: black;
+    border-top:  10px cadetblue solid ;
+    border-bottom: 10px cadetblue solid;
+}
+
+
+#playButton {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#image {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+
+
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: black}
+
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
